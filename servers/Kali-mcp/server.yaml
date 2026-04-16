@@ -1,0 +1,60 @@
+name: kali-mcp
+title: Kali MCP
+description: Kali Linux security tools exposed via Model Context Protocol
+author: Your Name
+homepage: https://github.com/yourusername/kali-mcp
+repository: https://github.com/yourusername/kali-mcp
+license: MIT
+
+imageDetails:
+  imageRef: docker://kali-mcp-server:latest
+  description: |
+    Kali MCP provides access to Kali Linux security and penetration testing tools through the Model Context Protocol.
+    
+    Includes tools like:
+    - nmap - Network scanning and reconnaissance
+    - metasploit-framework - Penetration testing framework
+    - sqlmap - SQL injection testing
+    - nikto - Web server scanner
+    - gobuster - Directory and DNS brute-forcing
+    - hydra - Credential attack tool
+    - enum4linux - SMB enumeration
+    - hashid - Hash type identification
+    - testssl.sh - SSL/TLS testing
+    - amass - OSINT and network mapping
+    - httpx - HTTP toolkit
+    - subfinder - Subdomain discovery
+    - gospider - Web spider
+    
+  documentation: https://github.com/yourusername/kali-mcp/blob/main/README.md
+  
+tools:
+  - name: network_scan
+    description: Performs network scanning and reconnaissance using nmap and other tools
+  - name: vulnerability_assessment
+    description: Identifies vulnerabilities in target systems
+  - name: web_testing
+    description: Tests web applications for security vulnerabilities
+  - name: credential_testing
+    description: Tests authentication and authorization mechanisms
+  - name: ssl_tls_analysis
+    description: Analyzes SSL/TLS certificates and configurations
+  - name: domain_enumeration
+    description: Enumerates domains, subdomains, and DNS records
+  - name: vulnerability_lookup
+    description: Looks up vulnerability information and CVEs
+
+resources:
+  - type: documentation
+    url: https://github.com/yourusername/kali-mcp
+
+metadata:
+  category: security
+  tags:
+    - security
+    - penetration-testing
+    - vulnerability-assessment
+    - kali-linux
+    - osint
+    - network-scanning
+  pulls: 0
